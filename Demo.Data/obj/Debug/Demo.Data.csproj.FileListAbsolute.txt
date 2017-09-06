@@ -1,0 +1,12 @@
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\Demo.Data.dll.config
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\Demo.Data.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\Demo.Data.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\EntityFramework.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\EntityFramework.xml
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\obj\Debug\Demo.Data.csprojResolveAssemblyReference.cache
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\obj\Debug\Demo.Data.Migrations.first.resources
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\obj\Debug\Demo.Data.csproj.GenerateResource.Cache
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\obj\Debug\Demo.Data.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.Data\obj\Debug\Demo.Data.pdb

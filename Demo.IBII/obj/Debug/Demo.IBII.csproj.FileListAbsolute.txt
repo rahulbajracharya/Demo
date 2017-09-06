@@ -1,0 +1,7 @@
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\bin\Debug\Demo.IBII.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\bin\Debug\Demo.IBII.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\bin\Debug\Demo.Models.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\bin\Debug\Demo.Models.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\obj\Debug\Demo.IBII.csprojResolveAssemblyReference.cache
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\obj\Debug\Demo.IBII.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.IBII\obj\Debug\Demo.IBII.pdb

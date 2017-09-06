@@ -1,0 +1,16 @@
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.BL.dll.config
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.BL.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.BL.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.Data.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.IBII.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.Models.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\EntityFramework.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.Data.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.IBII.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\Demo.Models.pdb
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\EntityFramework.xml
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\obj\Debug\Demo.BL.csprojResolveAssemblyReference.cache
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\obj\Debug\Demo.BL.dll
+C:\Users\rahul.bajracharya\documents\visual studio 2013\Projects\Demo\Demo.BL\obj\Debug\Demo.BL.pdb
