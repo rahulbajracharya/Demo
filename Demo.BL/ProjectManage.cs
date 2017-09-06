@@ -14,67 +14,72 @@ namespace Demo.BL
 
    public bool SaveProducts(ProductDetailModel product)
     {
-      ProductContext db = new ProductContext();
-      ProductDetail po = new ProductDetail();
-      po.ProductName = product.ProductName;
-      po.ProductDetail1 = product.ProductDetail;
-      po.ProductType = product.ProductType;
-      po.Price = product.Price;
-      if (db.SaveChanges() == 1) {
-        return true;
-      }
-      else
+      using (var db = new ProductContext())
       {
-        return false;
+        ProductDetail po = new ProductDetail();
+        po.ProductName = product.ProductName;
+        po.ProductDetail1 = product.ProductDetail;
+        po.ProductType = product.ProductType;
+        po.Price = product.Price;
+        if (db.SaveChanges() == 1)
+        {
+          return true;
+        }
+        else
+        {
+          return false;
+        }
       }
-
     }
    public List<ProductDetailModel> searchdetail(string id)
    {
-     ProductContext db = new ProductContext();
-     List<ProductDetailModel> li = new List<ProductDetailModel>();
-     var details = db.Product.Where(x => x.ProductType == id);
-     if (details != null)
+     using (var db = new ProductContext())
      {
-       Parallel.ForEach(details, x =>
+       List<ProductDetailModel> li = new List<ProductDetailModel>();
+       var details = db.Product.Where(x => x.ProductType == id);
+       if (details != null)
        {
-         ProductDetailModel obj = new ProductDetailModel();
-         obj.Sno = x.SnoId;
-         obj.ProductName = x.ProductName;
-         obj.Price = Convert.ToInt32(x.Price);
-         li.Add(obj);
+         Parallel.ForEach(details, x =>
+         {
+           ProductDetailModel obj = new ProductDetailModel();
+           obj.Sno = x.SnoId;
+           obj.ProductName = x.ProductName;
+           obj.Price = Convert.ToInt32(x.Price);
+           li.Add(obj);
 
-       });
-       return li;
-     }
-     else
-     {
-       return li;
+         });
+         return li;
+       }
+       else
+       {
+         return li;
+       }
      }
    }
 
    public List<ProductDetailModel> showDetails()
    {
-     ProductContext db = new ProductContext();
-     List<ProductDetailModel> li = new List<ProductDetailModel>();
-     var details = db.Product;
-     if (details != null)
+     using (var db = new ProductContext())
      {
-       Parallel.ForEach(details, x =>
+       List<ProductDetailModel> li = new List<ProductDetailModel>();
+       var details = db.Product;
+       if (details != null)
        {
-         ProductDetailModel obj = new ProductDetailModel();
-         obj.Sno = x.SnoId;
-         obj.ProductName = x.ProductName;
-         obj.Price = Convert.ToInt32(x.Price);
-         li.Add(obj);
-       });
-       return li;
+         Parallel.ForEach(details, x =>
+         {
+           ProductDetailModel obj = new ProductDetailModel();
+           obj.Sno = x.SnoId;
+           obj.ProductName = x.ProductName;
+           obj.Price = Convert.ToInt32(x.Price);
+           li.Add(obj);
+         });
+         return li;
+       }
+       else
+       {
+         return li;
+       }
      }
-     else
-     {
-       return li;
-     }
-
    }  
   
   }
